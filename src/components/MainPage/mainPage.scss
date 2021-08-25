@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.mainPage {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: url("../../Img/background.png");
+  background-color: #000;
+  height: calc(480vh);
+}

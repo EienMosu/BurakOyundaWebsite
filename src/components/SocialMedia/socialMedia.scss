@@ -1,0 +1,63 @@
+.socialMediaContainer {
+  margin-top: 2150px;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 850px) {
+    flex-direction: column;
+    margin-top: 1990px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 1700px;
+  }
+
+  .socialMediaBox {
+    padding: 50px 110px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+
+    @media only screen and (max-width: 1250px) {
+      padding: 25px 60px;
+    }
+
+    @media only screen and (max-width: 850px) {
+      padding: 35px 30px;
+      margin: 0;
+    }
+
+    .total {
+      margin-left: 25px;
+
+      @media only screen and (max-width: 1250px) {
+        margin: 0;
+      }
+    }
+    .count {
+      font-size: 55px;
+      color: white;
+
+      @media only screen and (max-width: 1250px) {
+        font-size: 35px;
+      }
+    }
+
+    h2 {
+      font-weight: 800;
+      margin-left: 5px;
+      color: white;
+      font-size: 30px;
+
+      @media only screen and (max-width: 1250px) {
+        font-size: 20px;
+      }
+    }
+  }
+}

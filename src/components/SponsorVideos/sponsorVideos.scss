@@ -1,0 +1,97 @@
+.sponsorVideoContainer {
+  margin-top: 2620px;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 950px) {
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 2300px;
+  }
+
+  .sponsorVideoWrapper {
+    background-color: #ffbf00;
+    text-align: center;
+    margin: 50px;
+    width: 450px;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s ease;
+
+    @media only screen and (max-width: 1550px) {
+      width: 400px;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      width: 350px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      width: 300px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+      width: 250px;
+      height: 200px;
+    }
+
+    @media only screen and (max-width: 950px) {
+      margin: 0;
+      margin-top: 50px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      width: 300px;
+      height: 220px;
+    }
+
+    .youtube {
+      @media only screen and (max-width: 1550px) {
+        width: 400px;
+      }
+
+      @media only screen and (max-width: 1400px) {
+        width: 350px;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        width: 300px;
+      }
+
+      @media only screen and (max-width: 1000px) {
+        width: 250px;
+        height: 200px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        width: 300px;
+        height: 220px;
+      }
+    }
+
+    &:hover {
+      clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 10% 100%, 0 85%);
+      transform: scale(1.1);
+    }
+
+    .sponsorVideoTitle {
+      margin-top: 15px;
+
+      span {
+        font-size: 27px;
+
+        @media only screen and (max-width: 1000px) {
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}

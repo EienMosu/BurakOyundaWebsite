@@ -1,0 +1,57 @@
+.streamContainer {
+  margin-top: 1600px;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media only screen and (max-width: 933px) {
+    margin-top: 1500px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 1200px;
+  }
+
+  .imgContainer {
+    img {
+      margin-bottom: 20px;
+      width: 450px;
+      height: 50px;
+
+      @media only screen and (max-width: 933px) {
+        width: 350px;
+        height: 30px;
+        
+      }
+    }
+  }
+
+  .streamWrapper {
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+
+    .youtube {
+      @media only screen and (max-width: 933px) {
+        width: 450px;
+        height: 320px;
+      }
+    }
+  }
+
+  .onlineStreamer {
+    img {
+      width: 900px;
+
+      @media only screen and (max-width: 933px) {
+        width: 450px;
+        height: 320px;
+      }
+    }
+  }
+}
