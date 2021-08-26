@@ -1,20 +1,11 @@
 .streamContainer {
-  margin-top: 1600px;
-  height: 500px;
+  margin-top: 10%;
   width: 100vw;
   display: flex;
   position: absolute;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  @media only screen and (max-width: 933px) {
-    margin-top: 1500px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    margin-top: 1200px;
-  }
 
   .imgContainer {
     img {
@@ -25,7 +16,6 @@
       @media only screen and (max-width: 933px) {
         width: 350px;
         height: 30px;
-        
       }
     }
   }

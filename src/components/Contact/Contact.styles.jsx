@@ -1,19 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 3195px;
-  height: 500px;
-  width: 100vw;
+  margin-top: 10%;
   display: flex;
-  position: absolute;
-
-  @media only screen and (max-width: 950px) {
-    margin-top: 3300px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    margin-top: 3100px;
-  }
 `;
 
 export const Wrapper = styled.div`
@@ -24,6 +13,7 @@ export const Wrapper = styled.div`
   justify-content: center;
 
   @media only screen and (max-width: 1550px) {
+    flex-direction: column;
     padding: 0;
   }
 `;
@@ -34,7 +24,8 @@ export const Left = styled.div`
   justify-content: center;
 
   @media only screen and (max-width: 1550px) {
-    display: none;
+    text-align: center;
+    margin-bottom: 10%;
   }
 `;
 
@@ -42,11 +33,21 @@ export const Title = styled.h2`
   color: white;
   font-size: 50px;
   margin-bottom: 50px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+    margin-bottom: 10%;
+  }
 `;
 
 export const Span = styled.span`
   color: white;
-  font-size: 35px;
+  font-size: 30px;
+  text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 15px;
+  }
 `;
 
 export const Right = styled.div`

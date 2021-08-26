@@ -1,21 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 3590px;
-  height: 500px;
-  width: 100vw;
   display: flex;
-  position: absolute;
   align-items: center;
   justify-content: center;
-
-  @media only screen and (max-width: 768px) {
-    margin-top: 3400px;
-  }
-
-  @media only screen and (max-width: 568px) {
-    margin-top: 3300px;
-  }
 `;
 
 export const Wrapper = styled.div`

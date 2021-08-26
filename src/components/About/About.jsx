@@ -6,7 +6,7 @@ const About = () => {
     <div className="aboutContainer">
       <div className="leftAbout">
         <h2>BURAK ŞAHİN</h2>
-        <p className="aboutP">
+        <p className="aboutP" >
           Merhaba, 2012 yılından beri dijital mecrada içerik üretiyor, reklam ve
           pazarlama stratejileri yaratıyorum. 2012'de kurduğum Burak Oyunda
           Youtube kanalım ile Türkiye'de ilk 1 ve 2 milyon aboneye ulaşan kanal
