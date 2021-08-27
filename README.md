@@ -5,5 +5,5 @@ My first real life working project!!!
 * Responsive
 * Single Page
 
-**Try it!**
+**Try it**: 
 https://tender-turing-23cf42.netlify.app/
