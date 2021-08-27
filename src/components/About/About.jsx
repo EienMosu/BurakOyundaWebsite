@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./about.scss";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: -600 });
+  }, []);
+
   return (
     <div className="aboutContainer">
-      <div className="leftAbout">
+      <div className="leftAbout" data-aos="fade-right">
         <h2>BURAK ŞAHİN</h2>
-        <p className="aboutP" >
+        <p className="aboutP">
           Merhaba, 2012 yılından beri dijital mecrada içerik üretiyor, reklam ve
           pazarlama stratejileri yaratıyorum. 2012'de kurduğum Burak Oyunda
           Youtube kanalım ile Türkiye'de ilk 1 ve 2 milyon aboneye ulaşan kanal
@@ -16,7 +22,7 @@ const About = () => {
           Yeni Medya Bölümü mezunuyum.
         </p>
       </div>
-      <div className="rightAbout">
+      <div className="rightAbout" data-aos="fade-left">
         <img src="./assets/aboutBurak.png" alt="" className="burakAboutImg" />
       </div>
     </div>

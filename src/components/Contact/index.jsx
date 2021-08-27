@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Container,
   Form,
@@ -13,19 +13,26 @@ import {
   Title,
   Wrapper,
 } from "./Contact.styles";
+//Animate on scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: -600 });
+  }, []);
+
   return (
     <>
-      <Container>
+      <Container id="contact">
         <Wrapper>
-          <Left>
+          <Left data-aos="fade-down-right">
             <Title>
               BURAK OYUNDA <br /> İŞ BİRLİKLERİ İÇİN
             </Title>
             <Span>burakoyunda@gmail.com</Span>
           </Left>
-          <Right>
+          <Right data-aos="fade-down-left">
             <Form>
               <LeftForm>
                 <Input placeholder="Isim" />

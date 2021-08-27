@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./slider.scss";
 import YouTube from "react-youtube";
+//Data
 import { worksData } from "../../data";
 
 const Slider = () => {
@@ -26,15 +27,23 @@ const Slider = () => {
   };
 
   return (
-    <div className="mainContainer">
+    <div className="mainContainer" id="slider">
       <div className="navbarContainer">
         <div className="Wrapper">
           <ul>
-            <li>ANA SAYFA</li>
-            <li>CANLI YAYIN</li>
+            <li>
+              <a href="#stream">CANLI YAYIN</a>
+            </li>
+            <li>
+              <a href="#sponsors">VIDEOLAR</a>
+            </li>
             <img src="./assets/logo.png" alt="" />
-            <li>REFERANSLAR</li>
-            <li>İLETIŞİM</li>
+            <li>
+              <a href="#referans">REFERANSLAR</a>
+            </li>
+            <li>
+              <a href="#contact">İLETIŞİM</a>
+            </li>
           </ul>
         </div>
       </div>

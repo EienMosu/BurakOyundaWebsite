@@ -1,8 +1,7 @@
 import React from "react";
+import styled from "styled-components";
 //components
 import Enter from "./components/Enter/Enter";
-import styled from "styled-components";
-
 import Slider from "./components/Slider/Slider";
 import About from "./components/About/About";
 import Stream from "./components/Stream/Stream";

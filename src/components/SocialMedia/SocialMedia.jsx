@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import "./socialMedia.scss";
+//Animate on scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
+
+
+
 
 const SocialMedia = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: -600 });
+  }, []);
+
   return (
-    <div className="socialMediaContainer">
+    <div className="socialMediaContainer" data-aos="fade-up">
       <div className="socialMediaBox">
         <CountUp
           className="count"
@@ -15,7 +27,7 @@ const SocialMedia = () => {
         />
         <h2>YOUTUBE ABONE SAYISI</h2>
       </div>
-      <div className="socialMediaBox">
+      <div className="socialMediaBox" data-aos="fade-up">
         <CountUp
           className="count"
           start={0}
@@ -25,7 +37,7 @@ const SocialMedia = () => {
         />
         <h2 className="total">YOUTUBE İZLENME</h2>
       </div>
-      <div className="socialMediaBox">
+      <div className="socialMediaBox" data-aos="fade-up">
         <CountUp
           className="count"
           start={0}
