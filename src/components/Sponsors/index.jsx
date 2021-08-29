@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const Sponsors = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: -600 });
+    Aos.init({ duration: 1000, offset: -650 });
   }, []);
 
   return (

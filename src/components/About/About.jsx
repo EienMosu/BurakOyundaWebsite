@@ -5,7 +5,7 @@ import "./about.scss";
 
 const About = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: -600 });
+    Aos.init({ duration: 1000, offset: -500 });
   }, []);
 
   return (

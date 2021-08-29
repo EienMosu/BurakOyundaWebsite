@@ -39,10 +39,10 @@ const Slider = () => {
             </li>
             <img src="./assets/logo.png" alt="" />
             <li>
-              <a href="#referans">REFERANSLAR</a>
+              <a href="#contact">İLETIŞİM</a>
             </li>
             <li>
-              <a href="#contact">İLETIŞİM</a>
+              <a href="#referans">REFERANSLAR</a>
             </li>
           </ul>
         </div>
